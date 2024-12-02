@@ -1,0 +1,47 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #24353F;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+    color: #17a2b8;
+}
+
+a {
+    text-decoration: none;
+    color: #0dcaf0 !important;
+}
+
+.group {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.form-control {
+    background-color: #24353F !important;
+    border: 1px solid #ced4da;
+    color: #ced4da !important;
+}
+
+.form-control::placeholder {
+    color: #ced4da !important;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.userHome {
+    height: calc(100vh - 56px) !important;
+}
+
+.btnLogOut {
+    border: 1px solid #ffc107;
+}
